@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1db954;
+    padding: 20px;
+    color: white;
+}
+
+h1 {
+    margin: 0;
+}
+
+#songList {
+    margin: 20px;
+    padding: 10px;
+    margin: 10px;
+    border: 2px;
+    border-radius: 5px;
+    border-color: black;
+    /* background-color: black; */
+}
+
+.song {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.song img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.song .title {
+    font-weight: bold;
+}
+
+.song .artist {
+    font-style: italic;
+}
+
+.song .playButton {
+    margin-left: auto;
+}
+
+
+    
